@@ -1,0 +1,42 @@
+git config --global user.name "[your github or gitlab username]"
+
+git config --global user.email "[your github or gitlab email]"
+
+git config --list
+
+git status
+
+git init test1 // repository name
+
+cd test1 // move to repository folder
+
+git status
+
+git add .
+
+git status
+
+git commit -m "repo1" //your comments
+
+git remote add origin git@github.com:username/reponame 
+                                        \/      \/
+		///github or gitlab username/repository name
+
+git push -u origin master
+
+2FA Private key nite hobe https://github.com/settings/tokens
+
+touch new file //make new file
+
+git add .
+
+git commit -m "your comments"
+
+git pull -all
+
+git push -u origin master
+
+
+
+
+
